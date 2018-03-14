@@ -13,7 +13,7 @@ virt-install --name=HOST-NAME-HERE \
 --nographics \
 --location http://mirror.centos.org/centos/7/os/x86_64/ \
 --initrd-inject=/root/kickstart/ks.cfg \
---extra-args="ks=file:/kickstart/ks.cfg console=ttyS0"
+--extra-args="ks=file:/ks.cfg console=ttyS0"
 
 Make sure to change HOST-NAME-HERE to the hostname you want for this new 
 Linux instance.
